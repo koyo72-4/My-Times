@@ -1,0 +1,240 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 0 10px 0;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 14px;
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+header nav {
+  margin-right: 30px;
+  height: 60px;
+}
+
+header nav ul {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+header nav li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 0 10px;
+}
+
+a {
+  color: black;
+}
+
+main {
+  width: 1300px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: relative;
+  top: 76px;
+  z-index: 0;
+}
+
+.column {
+  height: 1150px;
+  margin: 0 15px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  display: inline-flex;
+  flex-flow: column nowrap;
+}
+
+.column.large {
+  width: 630px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.column.medium {
+  width: 300px;
+  justify-content: flex-start;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.story {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.story#tuna-steak {
+  width: 629px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.story#orca,
+.story#burger {
+  width: 299px;
+  height: 575px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.story#action-star,
+.story#cats {
+  margin-top: 15px;
+}
+
+main h2 {
+  margin: 0;
+}
+
+span.city {
+  text-transform: uppercase;
+}
+
+main p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tuna-steak div.image {
+  background-image: url("../images/img-story-main.png");
+}
+
+#orca div.image {
+  background-image: url("../images/img-story-2.png");
+}
+
+#burger div.image {
+  background-image: url("../images/img-story-3.png");
+}
+
+#cats div.image {
+  background-image: url("../images/img-story-1.png");
+}
+
+main h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+#tuna-steak h3 {
+  font-size: 40px;
+}
+
+.small h2 {
+  margin-bottom: 40px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.small ul {
+  padding: 0;
+}
+
+.small ul li {
+  margin: 0;
+  padding: 10px 30px 10px 15px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  top: 76px;
+  z-index: 0;
+}
+
+footer nav ul {
+  margin: 0;
+  padding-left: 25px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+}
+
+footer nav li {
+  padding: 10px 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+footer .title {
+  margin: 0;
+  padding-right: 25px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  display: inline-block;
+}
+
+footer .copyright {
+  margin-top: 10px;
+  font-size: 14px;
+}
