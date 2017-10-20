@@ -57,9 +57,9 @@ a {
 }
 
 main {
-  width: 1300px;
+  min-width: 1300px;
   padding-top: 30px;
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
